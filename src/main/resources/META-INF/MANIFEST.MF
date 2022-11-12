@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: com.tejasbhovad.upixelapp.Main
+Class-Path: junit-jupiter-api-5.8.2.jar javafx-controls-18.0.1.jar javaf
+ x-fxml-18.0.1-mac.jar javafx-base-18.0.1-mac.jar javafx-graphics-18.0.1
+ -mac.jar javafx-base-18.0.1.jar junit-jupiter-engine-5.8.2.jar javafx-c
+ ontrols-18.0.1-mac.jar junit-platform-commons-1.8.2.jar javafx-graphics
+ -18.0.1.jar opentest4j-1.2.0.jar junit-platform-engine-1.8.2.jar
+

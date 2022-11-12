@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #51D9E8#51D9E8;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tejasbhovad.upixelapp.appController">
+   <BorderPane layoutX="154.0" layoutY="56.0" prefHeight="200.0" prefWidth="200.0">
+      <left>
+          <AnchorPane id="dropArea" prefHeight="197.0" prefWidth="291.0" style="-fx-background-color: #27C5E1#27C5E1; -fx-background-radius: 5px; -fx-border-color: white; -fx-border-style: dashed; -fx-border-width: 3.5px; -fx-border-radius: 5px;" BorderPane.alignment="CENTER">
+              <Text fill="WHITE" layoutX="72.0" layoutY="75.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Upscale Pixel Art" textAlignment="CENTER">
+                  <font>
+                      <Font name="Arial Bold" size="18.0" />
+                  </font>
+              </Text>
+              <Button id="upload" layoutX="78.0" layoutY="99.0" mnemonicParsing="false" onAction="#onUploadClick" prefHeight="26.0" prefWidth="135.0" style="-fx-background-color: #D1F8FF#D1F8FF;" text="upload files" textAlignment="CENTER" textFill="#4b8ba1">
+                  <font>
+                      <Font name="Arial Bold" size="13.0" />
+                  </font>
+              </Button>
+            <Label fx:id="selectionLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="137.0" prefHeight="26.0" prefWidth="278.0" text=" " textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold Italic" size="14.0" />
+               </font>
+            </Label>
+          </AnchorPane>
+      </left>
+   </BorderPane>
+    <Button id="download" layoutX="233.0" layoutY="271.0" mnemonicParsing="false" onAction="#onDownloadClick" prefHeight="33.0" prefWidth="135.0" style="-fx-background-color: white; -fx-background-radius: 4px;" text="download" textFill="#27c5e1">
+        <font>
+            <Font name="Arial Bold" size="16.0" />
+        </font>
+    </Button>
+</AnchorPane>
