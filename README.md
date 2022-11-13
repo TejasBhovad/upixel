@@ -13,5 +13,5 @@ U-Pixel is an pixel art upscaling tool made with [JavaFX](https://openjfx.io/) a
 
 **Copyright 2022 Tejas Bhovad**
 <br>
-Licensed under GNU Lesser General Public License v3.0. Obtain a copy of license at  <br>
+Licensed under GNU Lesser General Public License v3.0. <br> Obtain a copy of license at  <br>
 `https://www.gnu.org/licenses/lgpl+gpl-3.0.txt`
